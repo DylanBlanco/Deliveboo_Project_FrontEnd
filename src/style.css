@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:not(ul):not(ol) {
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 200px; /* Imposta la larghezza fissa */
+  height: 200px; /* Imposta l'altezza fissa */
+  object-fit: cover; /* Per mantenere la proporzione delle immagini senza distorcerle */
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace; font-weight: 400;
+  font-style: normal; letter-spacing: auto;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace; font-weight: 600;
+  font-style: normal;
+}
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace; font-weight: 700;
+  font-style: normal;
+}
+.my-title{
+  font-family: "neplus", serif; font-weight: 900; font-style: normal; font-size: 70px;
+}
+.title-white{
+  font-family: "neplus", serif; font-weight: 900; font-style: normal; font-size: 50px;
+  color: white;
+}
+
+.card{
+  border: #2f2f2f solid 3px;
+}

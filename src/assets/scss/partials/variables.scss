@@ -1,0 +1,7 @@
+@use 'mixins';
+@use 'colors';
+
+$primary-color: #3498db; // Variabile definita dopo @use
+
+$mainColor: rgb(255, 255, 255);
+$mainBgColor: rgb(156, 116, 89);
